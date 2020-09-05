@@ -1,0 +1,62 @@
+.container{
+    padding:45px;
+    font-size: medium;
+}
+li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 550px !important;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 5px;
+  }
+
+/* navbar css */
+.navbar{
+    letter-spacing: 4px;
+    background-color: rgb(61, 57, 57);
+    color:orange;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+  }
+
+  /* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+  }
+
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+  }
+.dropdown-menu li a{
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: rgb(83, 81, 81) !important;
+}
+
+.readmore{
+  color: rgb(93, 93, 241);
+}
+
+.navbar-toggle .icon-bar{
+  color: blue;
+  border-color: transparent;
+}
